@@ -1,0 +1,2 @@
+Edit Makefile and gslib/Makefile to reflect your Fortran compiler if it is not g95.
+run 'make'

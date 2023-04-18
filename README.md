@@ -9,7 +9,7 @@ Repository defining the problem for the carbon capture and sequestration optimal
 - Observation Model: Internal to the surrogate simulation  
 - Transition Model: Internal to the surrogate simulation 
 - Reward Function: $−1000.0 ×m_{exited}−10.0 ×m_{free}+10.0 ×m_{trapped}$
-- Intial State Distribution `ReservoirDistribution`: Heirarchical Gaussian process over rock properties. Sampled with approximate sequential Gaussian simulation (SGS). 
+
 
 
 ## Reservoir Simulator MRST
@@ -23,12 +23,4 @@ Running the simulation: `simulation_master.m` - instructions and comments are in
 We used a mac to run the simulations. All instructions in the files are based on macOS - if you use windows you might need to change the path to windows syntex.
 
 
-# Saving MRST files for python
 
-We are using the following package for saving the MRST results in the npy format
-
-https://github.com/kwikteam/npy-matlab
-
-don't forget to add the path into the matlab file:
-
-e.g.: addpath('/Users/markuszechner/Documents/MATLAB/npy-matlab-master/npy-matlab/')
